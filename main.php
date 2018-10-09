@@ -35,7 +35,7 @@ $name_user = $_SESSION['fullname'];
         <p>Usuarios Conectados:</p>
     </div>
     <form method="post" class="col-10" action="main.php">
-        <textarea name="mensaje" class="form-control" placeholder="Escribe tu mensaje aquí :3 Gracias! "></textarea>
+        <textarea name="mensaje" class="form-control" placeholder="Escribe tu mensaje aquí"></textarea>
         <div class="col-10 m-4">
         <div class="float-left">
             <p>Bievenid@: <?php echo "<b>" . $_SESSION['fullname']. "</b>"?></p>
